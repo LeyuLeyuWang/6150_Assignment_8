@@ -1,0 +1,28 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    text-align: center;
+    font-size: large;
+}
+
+body {
+    background-color: #FBFFF1;
+}
+
+#geography {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+}
+
+.country-info {
+    display: none;
+}
+
+.country-info:target {
+    display: block;
+}
